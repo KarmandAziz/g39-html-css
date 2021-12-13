@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>userform</title>
 </head>
 <body>
-    <main>
-        <header>
+    <main class="main">
+        <header class="header" >
             <div>
                 <h1>HTML first webpage</h1>
             </div>
@@ -18,7 +19,7 @@
             <a href="https://thumbs.dreamstime.com/z/samtal-f%C3%B6r-tv%C3%A5-strutsar-38619159.jpg">To our picture</a>
         </header>
 
-        <section>
+        <section class="card">
             <form accept="#" method="POST">
                 <div>
                     <label>First name:</label>
@@ -42,11 +43,11 @@
                 </div>
                 <div>
                     <label>Birthdate:</label>
-                    <input type="date", placeholder="Birthdate.." />
+                    <input type="date", placeholder="" />
                 </div>
-                <div>
-                    <button type="reset">reset</button>
-                    <button type="submit">submit</button>
+                <div class="button-group">
+                    <button class="submit block" type="Submit">Submit</button>
+                    <button class="reset block" type="Reset">Reset</button>
                 </div>
 
             </form>
